@@ -57,6 +57,7 @@ img {
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 200px;
 }
 #header .header__top{
     width: 100%;
@@ -244,4 +245,259 @@ img {
     border-radius: 50%;
     background-color: rgb(207, 227, 252);
     color: blue;
+}
+
+/* *-*-*-* HEADER END *-*-*-* */
+#title{
+    width: 100%;
+    margin-top: 300px;
+}
+#title .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#title .title .title__text{
+    width: 50%;
+}
+#title .title .title__text h1{
+    color: #223B74;
+    font-family: "open sans 700";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.2px;
+}
+#title .title .title__text p{
+    color: #5A7184;
+    font-family: "open sans 600";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+#title .title .title__more a{
+    color: #202856;
+    font-family: "open sans 700";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 2px solid #202856;
+}
+#title .featured{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+    margin-top: 40px;
+}
+#title .featured .blog{
+    width: 48%;
+    height: 600px;
+    background-image: url(../images/Image\ \(52\).png);
+    background-position: center;
+    background-size: cover;
+    padding: 15px 48px;
+
+}
+#title .featured .blog h3{
+    width: 100px;
+    color: #223B74;
+    font-family: "open sans 600";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#title .featured .blog h1{
+    width: 100%;
+    color: #223B74;
+    font-family: "open sans 600";
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: 0.2px;
+    margin-top: 300px;
+}
+#title .blog .text__bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#title .blog .text__bottom .text__bottom--blog{
+    width: 43   %;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#title .blog .text__bottom .text__bottom--blog .blog__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B41F45;
+    border: 1px solid #B41F45;
+}
+#title .blog .text__bottom .text__bottom--blog .blog__text h5{
+    color: #183B56;
+    font-family: "open sans 600";
+    font-size: 16px;
+}
+#title .blog .text__bottom .text__bottom--blog .blog__text span{
+    color: #5A7184;
+    font-family: "open sans 600";
+    font-size: 14px;
+}
+#title .blog .text__bottom .text__bottom--blog .blog__text i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(207, 227, 252);
+    color: blue;
+}
+/* *-*-*-* TITLE PAGE END *-*-*-* */
+
+/* *-*-*-* USER PAGE START *-*-*-* */
+#user{
+    width: 100%;
+    margin-top: 30px;
+}
+#user .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#user .title .title__text{
+    width: 50%;
+}
+#user .title .title__text h1{
+    color: #223B74;
+    font-family: "open sans 700";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.2px;
+}
+#user .title .title__text p{
+    color: #5A7184;
+    font-family: "open sans 600";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+#user .title .title__more a{
+    color: #202856;
+    font-family: "open sans 700";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 2px solid #202856;
+}
+#user .user__body{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#user .user__body .user__body--blog{
+    width: 30%;
+    height: 500px;
+    background-image: url(../images/Base.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#user .user__body .second{
+    background-image: url(../images/Image\ \(55\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#user .user__body .third{
+    background-image: url(../images/Image\ \(56\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#user .user__body .user__body--blog h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 250px;
+    color: #fff;
+}
+#user .user__body .user__body--blog p{
+    font-family: "open sans 600";
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+}
+#user .user__body .user__body--blog .text__bottom{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#user .user__body .user__body--blog .text__bottom  .text__bottom--blog{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#user .user__body .user__body--blog .text__bottom  .text__bottom--blog .blog__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #731b31;
+    border: 1px solid #B41F45;
+}
+#user .user__body .user__body--blog .text__bottom  .text__bottom--blog .blog__text h5{
+    color: #183B56;
+    font-family: "open sans 600";
+    font-size: 12px;
+}
+#user .user__body .user__body--blog .text__bottom  .text__bottom--blog .blog__text span{
+    color: #eff2f5;
+    font-family: "open sans 600";
+    font-size: 10px;
+}
+#user .user__body .user__body--blog .text__bottom  .text__bottom--blog .blog__text i{
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: rgb(207, 227, 252);
+    color: blue;
+}
+#user .user__body .user__body--blog .text__bottom p{
+    font-size: 14px;
+    color: #fff;
 }
